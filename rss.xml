@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Jackie's Blog (alt version) - RSS Feed</title>
+    <link>http://localhost:8000/</link>
+    <description>Alt version blog built with BSSG</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Apr 2025 09:48:45 -0500</lastBuildDate>
+    <atom:link href="http://localhost:8000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+        <title>Hello World (again)</title>
+        <link>http://localhost:8000/2025/04/16/hello-world-again/</link>
+        <guid isPermaLink="true">http://localhost:8000/2025/04/16/hello-world-again/</guid>
+        <pubDate>Wed, 16 Apr 2025 22:49:30 -0500</pubDate>
+        <atom:updated>2025-04-16T22:49:30-05:00</atom:updated>
+        <description><![CDATA[Hello World! A big HALO from BSSG generated blog post. I love writing in Vim! I didn&apos;t know it has syntax highlighting for markdown files now. ]]></description>
+    </item>
+</channel>
+</rss>
