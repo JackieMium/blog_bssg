@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes | Jackie's Blog (alt version)</title>
+    <meta name="description" content="Alt version blog built with BSSG">
+    <meta property="og:title" content="Notes | Jackie's Blog (alt version)">
+    <meta property="og:description" content="Alt version blog built with BSSG">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://bssg.jiangjun.link//pages/all-kinds-of-note-like-thingy/">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Notes | Jackie's Blog (alt version)">
+    <meta name="twitter:description" content="Alt version blog built with BSSG">
+    
+    <meta name="theme-color" content="#808080">
+    <link rel="stylesheet" href="http://bssg.jiangjun.link/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://bssg.jiangjun.link/rss.xml">
+    <!-- bssg:tag_rss_link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Notes",
+  "url": "http://bssg.jiangjun.link/pages/all-kinds-of-note-like-thingy/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Jackie's Blog (alt version)",
+    "url": "http://bssg.jiangjun.link"
+  }
+}
+</script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="site-title"><a href="http://bssg.jiangjun.link/">Jackie's Blog (alt version)</a></div>
+            <p>Alt version blog built with BSSG</p>
+            <nav>
+                <a href="http://bssg.jiangjun.link/">Home</a> <a href="http://bssg.jiangjun.link/pages/about/">About</a> <a href="http://bssg.jiangjun.link/pages.html">Pages</a> <a href="http://bssg.jiangjun.link/tags/">Tags</a> <a href="http://bssg.jiangjun.link/archives/">Archives</a> <a href="http://bssg.jiangjun.link/rss.xml">RSS</a>
+            </nav>
+        </header>
+        <main> <article class="page">
+  <h1>Notes</h1>
+  <div class="page-content">
+<p>This page is mostly for myself as a notekeeping place.</p>
+<h2>*nix note</h2>
+<h3>Linux</h3>
+<h3>BSD</h3>
+<h2>R notes</h2>
+<ul>
+<li>
+<p>Transform between <a href="https://satijalab.org/seurat/">Seurat</a> v5 and v3 <code>Assay</code> objects (<a href="https://github.com/satijalab/seurat/issues/7409">ref</a>):</p>
+<pre><code class="language-r"># convert a v5 assay to a v3 assay
+seurat_obj[['RNA3']] &lt;- as(object = seurat_obj[['RNA']], Class = 'Assay')
+
+# convert a v3 assay to a v5 assay
+seurat_obj[['RNA5']] &lt;- as(object = seurat_obj[['RNA3']], Class = 'Assay5')
+</code></pre>
+</li>
+<li>
+<p>R/Bioconductor: Genome and Annoation</p>
+<ul>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/GenomicFeatures/inst/doc/GenomicFeatures.html">GenomicFeatures: Obtaining and Utilizing TxDb Objects</a></li>
+<li><a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/ensembldb/inst/doc/ensembldb.html">ensembldb: Generating and using Ensembl based annotation packages</a></li>
+<li><a href="https://bioconductor.org/packages/release/bioc/html/BSgenome.html">BSgenome: Software infrastructure for efficient representation of full genomes and their SNPs</a></li>
+<li><a href="https://bioconductor.org/packages/release/data/annotation/html/org.Mm.eg.db.html">org.Mm.eg.db:  Genome wide annotation for Mouse, primarily based on mapping using Entrez Gene identifiers.</a></li>
+<li><a href="https://useast.ensembl.org/info/website/archives/assembly.html">Ensembl: Table of Assemblies</a></li>
+</ul>
+</li>
+</ul>
+  </div>
+</article>        </main>
+        <footer>
+            <p>&copy; 2025 Jackie. All rights reserved.</p>
+            <p>This site was generated with <a href="https://bssg.dragas.net">BSSG</a>, a Bash Static Site Generator.</p>
+            <p>
+                <a href="http://bssg.jiangjun.link/">Home</a> &middot; <a href="http://bssg.jiangjun.link/pages/about/">About</a> &middot; <a href="http://bssg.jiangjun.link/pages.html">Pages</a> &middot; <a href="http://bssg.jiangjun.link/archives/">Archives</a> &middot; <a href="http://bssg.jiangjun.link/tags/">Tags</a> &middot; <a href="http://bssg.jiangjun.link/rss.xml">Subscribe via RSS</a>
+            </p>
+            <p><a href="#">Back to Top</a></p>
+        </footer>
+    </div>
+</body>
+</html> 
