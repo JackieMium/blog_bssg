@@ -1,57 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://jackiemium.github.io/blog_bssg/</loc>
-        <lastmod>2025-04-16</lastmod>
+        <loc>http://bssg.jiangjun.link/</loc>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://jackiemium.github.io/blog_bssg/2025/04/16/hello-world-again/</loc>
-        <lastmod>2025-04-16</lastmod>
+        <loc>http://bssg.jiangjun.link/2025/04/16/hello-world-again/</loc>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://jackiemium.github.io/blog_bssg/pages/about/</loc>
+        <loc>http://bssg.jiangjun.link/pages/about/</loc>
         <lastmod>2025-04-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://jackiemium.github.io/blog_bssg/pages/a-list-of-links/</loc>
+        <loc>http://bssg.jiangjun.link/pages/a-list-of-links/</loc>
         <lastmod>2025-04-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://jackiemium.github.io/blog_bssg/tags/</loc>
-        <lastmod>2025-04-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jackiemium.github.io/blog_bssg/archives/</loc>
-        <lastmod>2025-04-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jackiemium.github.io/blog_bssg/archives/2025/</loc>
-        <lastmod>2025-04-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jackiemium.github.io/blog_bssg/archives/2025/04/</loc>
-        <lastmod>2025-04-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://jackiemium.github.io/blog_bssg/pages.html</loc> <!-- Assuming this page doesn't get a trailing slash -->
-        <lastmod>2025-04-16</lastmod>
+        <loc>http://bssg.jiangjun.link/pages/all-kinds-of-note-like-thingy/</loc>
+        <lastmod>2025-04-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>http://bssg.jiangjun.link/tags/blog/</loc>
+        <lastmod>2025-04-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
     </url>
 </urlset>
